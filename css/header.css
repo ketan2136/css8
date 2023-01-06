@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .box {
     width: 85%;
     height: 100px;
@@ -8,7 +14,8 @@
 .logo {
     width: 20%;
     height: 100%;
-    border: 2px solid black;
+    
+    float: left;
 }
 
 .logo img {
@@ -16,8 +23,13 @@
     height: 100%;
 
 }
-
 .nevigstion {
-   
-  
+    float: right;
+    
+}
+
+.nevigstion li{
+    padding-top: 20px;
+    display: block;
+    margin: 5px;
 }
