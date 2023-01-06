@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter {
+    width: 85%;
+    height: 500px;
+    
+    margin: 0 auto;
+  
+}
+
+.product {
+    width: 22%;
+    height: 180px;
+ 
+    float: left;
+    margin: 10px;
+    min-width: 202px;
+    max-width: 400px;
+}
+
+.imgconter {
+    
+    width: 100%;
+    height: 80%;
+}
+
+.data {
+    width: 100%;
+    height: 20%;
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+.imgconter img {
+    width: 100%;
+    height: 100%;
+}
